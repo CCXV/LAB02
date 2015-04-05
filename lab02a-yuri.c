@@ -7,6 +7,7 @@
  * 
  * 
  */
+
 /* Funcao que retorna o valor do conceito */
 int calc_conceito (char conceito_char)
 {
@@ -63,7 +64,7 @@ int main()
 		}
 			
 	}
-	
+	/* Executa o loop enquanto o conceito nao for * */
 	while (conceito != '*');
 	
 	/* Imprime o CR ou caso ele seja indefinido imprime indefinido */
